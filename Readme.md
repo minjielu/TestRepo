@@ -11,6 +11,8 @@ Currently, if $BuildFactorizedLexicons = True, $ParallelLexiconBuild will automa
 
 The lexicon build process will populate the FactorizedLexicons and ParserLexicon directory as shown below.
 
+<img src="images/factorized_lexicons.png" width="500" height="250" />
+
 Then need to build the CalculateParse.jar file which contains the AppendFactorizedLexicons.class and the new Trie.class and TrieBuilder.class.
 
 Then load the Mathematica package
